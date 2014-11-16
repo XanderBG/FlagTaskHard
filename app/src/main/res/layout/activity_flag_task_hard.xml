@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".FlagTaskHardActivity">
+
+    <LinearLayout
+        android:id="@+id/vertical_white_strip"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/horizontal_white_strip"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:id="@+id/vertical_blue_strip"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/horizontal_blue_strip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/blue"
+        android:orientation="horizontal"
+        android:layout_marginTop="170dp"
+        />
+
+</RelativeLayout>
